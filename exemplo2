@@ -1,0 +1,199 @@
+package aula5;
+
+public class exemplo2 {
+
+	public static void main(String[] args) {
+		int horario = 20;
+		if(horario > 18) {
+			System.out.println("Boa noite!");
+			
+		}else{
+			
+		System.out.println("Olá, tudo bem?");
+		
+			}
+		}
+	
+
+	}
+
+exemplo 3
+package aula5;
+
+public class exemplo3 {
+
+	public static void main(String[] args) {
+		int idade = 17; 
+		String resultado; 
+		
+		//usar a variavel
+		resultado = (idade > 18) ? "Pode entrar!" : "Bloqueado";
+		
+		System.out.println(resultado);
+		
+		//É o mesmo de
+	if (idade >18){
+		System.out.println("Pode entrar");
+		 }else{
+			 System.out.println("Bloqueado!");
+		 }
+		  
+	}
+
+}
+
+exemplo4
+package aula5;
+
+public class exemplo4 {
+
+	public static void main(String[] args) {
+		int idade = (int) (Math.random()*60)+1;
+		System.out.println("Idade: " + idade);
+		if (idade >=18) {
+			System.out.println("Pode entrar sozinho");
+		}else if (idade <18 && idade >13) {
+			System.out.println("Pode entrar acompanhado");
+		}else {
+			System.out.println("Volte para casa");
+		
+		}
+
+	}
+
+}
+
+
+exemplo 5
+package aula5;
+
+public class exemplo5 {
+
+	public static void main(String[] args) {
+		int diaSemana = 6; //sextafeira
+		switch (diaSemana) {
+		case 1:
+			System.out.println("Domingo");
+			break;
+		case 2:
+			System.out.println("Segunda-Feira");
+		break;
+		case 3:
+			System.out.println("Terça-Feira");
+		break;
+		case 4: 
+			System.out.println("Quarta-Feira");
+		break;
+		case 5:
+			System.out.println("Quinta-Feira");
+		break;
+		case 6:
+			System.out.println("Sexta-Feira");
+		break;
+		case 7:
+			System.out.println("Sabado");
+			break;
+			default:
+				System.out.println("Não identificado");
+				
+	
+		
+		}
+	}
+}
+
+exemplo 6
+package aula5;
+
+public class exemplo6 {
+
+	public static void main(String[] args) {
+		String resposta = "Não";
+		switch(resposta) {
+		case "SIM":
+			System.out.println("A resposta foi SIM");
+		break;
+		case "NÃO":
+			System.out.println("A resposta foi NÃO");
+			break;
+		default:
+			System.out.println("Resposta não identificada");
+
+			
+		
+		}
+
+	}
+
+}
+
+exemplo 7
+package aula5;
+
+public class exemplo7 {
+
+	public static void main(String[] args) {
+		int i = 0;
+		while (i<=15) {
+			System.out.println("i: " + i);
+++i; //incremento
+
+
+
+		}
+
+	}
+
+}
+
+exemplo 8
+package aula5;
+
+public class exemplo8 {
+
+	public static void main(String[] args) {
+		
+	int i = 0;
+	do {
+		System.out.println("i: "+ i);
+		
+	}
+		
+
+	}
+
+}
+
+exemplo9 
+package aula5;
+
+public class exemplo9 {
+
+	public static void main(String[] args) {
+		for(int i= 0; i <50; i++) {
+			System.out.println("i: "+i);
+			
+		}
+
+	}
+
+}
+
+exemplo10
+package aula5;
+
+public class exemplo10 {
+
+	public static void main(String[] args) {
+		
+		String[] nomes = {"Diego","Arthur","Ana","Maria","José"};
+				for (String i : nomes) {
+					System.out.println("Cliente: "+i);
+
+				
+				}
+	}
+
+}
+
+

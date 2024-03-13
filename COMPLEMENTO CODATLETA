@@ -1,0 +1,15 @@
+package aula6;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		//Instancia da classe atleta
+		Atleta pessoa1 = new Atleta();
+		pessoa1.inserirDados();
+		pessoa1.atualizarValor(20);
+        pessoa1.mostrar();
+        
+
+	}
+
+}

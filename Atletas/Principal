@@ -1,0 +1,20 @@
+public class Principal1 {
+
+	public static void main(String[] args) {
+		//'Instanciou' um objeto
+		
+Lutador pessoa1 = new Lutador ();
+pessoa1.setEsporte("Jiu-Jitsu"); //CLASSE ATLETA
+pessoa1.setValorPatrocinio(5000); //CLASSE ATLETA
+pessoa1.setPeso(83); //CLASSE LUTADOR
+pessoa1.setCategoria("Master 1");
+
+
+System.out.println("O lutador é da categoria " + pessoa1.getCategoria() + " e pesa " + pessoa1.getPeso() + "Kg");
+
+System.out.println("O esporte é " + pessoa1.getEsporte() + "e o valor de patrocínio mensal é de R$" + pessoa1.getValorPatrocinio());
+
+
+	}
+
+}
